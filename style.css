@@ -1,0 +1,184 @@
+body{
+    margin: 0px;
+    background-color:white;
+}
+#firstHeader{
+    display: flex;
+    justify-content: center;
+    background-color: #5A7ACD;
+    margin: 0px 0px 10px 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: 0px 0px 1px black;
+    color: #FEB05D;
+}
+
+
+/* Corner flex container */
+.corner-container {
+  position: fixed;
+  top: 15px;        
+  right: 15px;      
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  z-index: 999;
+  background-color: #2c3e50;
+  border-radius: 20%;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Button */
+.dropdown-btn {
+  width: 40px;
+  padding: 5px;
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* Dropdown list */
+.dropdown-content {
+  position: absolute;
+  display: none;
+  top: 100%;
+  right: 0;
+  width: 40px;
+  max-height: 220px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 6px;
+}
+
+/* Items */
+.dropdown-content span {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+
+.dropdown-content span:hover {
+  background: #f1f1f1;
+}
+
+/* Show on hover */
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardcontainer{
+    background-color: rgb(245, 243, 243);
+    perspective: 1000px;
+    margin-top: 70px;
+}
+.flashCards{
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    color:#88a7f5;
+    border-radius: 8%;
+    box-shadow: 0px 0px 5px black;
+    transform-style: preserve-3d;
+    transition: transform 0.4s;
+    cursor: pointer;
+    border: 0px;
+}
+.flashCards.flip{
+    transform: rotateY(180deg);
+}
+
+.face{
+    display: flex;
+    position:absolute;
+    background-color: transparent;
+    height: 400px;
+    backface-visibility: hidden;
+    width: 100%;
+    margin: auto;
+    color:#19191a;
+    border: 0px;
+    border-radius: 8%;
+    box-shadow: 0px 0px 5px black;
+    align-items: center;
+    justify-content:center;
+}
+.frontFace{
+    background-color: #5A7ACD;
+}
+.oppositeFace{
+    background-color: #f5d7b7;
+    transform: rotateY(180deg);
+    color:#19191a;
+}
+
+#wordShow{
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#dfnShow{
+    font-family:sans-serif;
+    font-weight: 100;
+    padding: 5%;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+#nextBtn,#prevBtn {
+    background-color: cadetblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: larger;
+    margin-bottom: 30px;
+
+    
+}
+
+.examples{
+
+    margin-top: 40px;
+
+}
+#secondHeader{
+    display: flex;
+    margin-bottom: 0;
+    height: 25px;
+    background-color:cadetblue;
+    margin-top: 40px;
+    justify-content: center;
+    margin-bottom: 0px;
+    font-size: large;
+    align-items: center;
+    text-align: center;
+
+}
+#sentences{
+    display: flex;
+    margin-top: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aigenbn{
+    font-size: small;
+}

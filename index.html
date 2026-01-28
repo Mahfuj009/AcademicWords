@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lan = "en">
+    <head>
+                <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-Q44NW1V99P');
+        </script>
+
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Academic words</title>
+        <link rel = "stylesheet" href="style.css">
+        <link rel="manifest" href="manifest.json">
+        <meta name="theme-color" content="#000000">
+    </head>
+        
+
+    <body>
+        <h1 id="firstHeader">Academic words</h1>
+        
+                    <div class="corner-container">
+            <div class="dropdown">
+                <div class="dropdown-btn">01</div>
+                <div class="dropdown-content" id="numberList"></div>
+            </div>
+            </div>
+
+        <div class = "cardcontainer">
+            <div class="flashCards" id = "flashCards">
+                <div class="frontFace face" >
+                    <h2 id = "wordShow"> </h2>
+                </div>
+                <div class="oppositeFace face">
+                    <h2 id ="dfnShow"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn">
+            <button id = "prevBtn">Prev</button>
+            <button id = "nextBtn">Next</button>
+            
+        </div>
+
+        <div class = "examples" id ="examples">
+            <div class = "ex" id = "secondHeader">
+                examples:
+            </div>
+            <div class="ex" id="sentences">
+                <h4> </h4>
+            </div>
+        </div>
+
+
+    </body>
+
+<script src = "scripts.js"></script>
+</html>
