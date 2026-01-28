@@ -2599,7 +2599,7 @@ function showE(){
     defin.innerHTML = `${words[wordIndex].definition}
                           <br>
                           <br>
-                          <p class ="aigenbn"> ${words[wordIndex].aiGenBn}</p>`
+                          <p class ="aigenbn">Ai generated Bangla:<br>${words[wordIndex].aiGenBn}</p>`
     showSentences.innerHTML = `
                         <h4>
                         <ul>
