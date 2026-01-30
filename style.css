@@ -164,11 +164,6 @@ body{
 
     
 }
-.btn:hover{
-    background-color: #80dfe2;
-    cursor: pointer;
-}
-
 .examples{
 
     margin-top: 40px;
