@@ -164,6 +164,9 @@ body{
 
     
 }
+#nextBtn:hover,#prevBtn:hover {
+    cursor: pointer;
+}
 .examples{
 
     margin-top: 40px;
