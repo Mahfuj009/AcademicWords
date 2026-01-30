@@ -30,6 +30,7 @@ const FILES_TO_CACHE = [
   "./index.html",
   "./style.css",
   "./app.js",
+  "./script.js",
   "./words.json",
   "./manifest.json",
   "./icon-192.png",

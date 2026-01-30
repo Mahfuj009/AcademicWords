@@ -164,8 +164,8 @@ body{
 
     
 }
-#nextBtn:hover,#prevBtn:hover {
-    background-color: #6bcebd;
+.btn:hover{
+    background-color: #80dfe2;
     cursor: pointer;
 }
 
