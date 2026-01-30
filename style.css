@@ -45,6 +45,9 @@ body{
   cursor: pointer;
   border-radius: 6px;
 }
+.dropdown-btn:hover {
+  background: #435669;
+}
 
 /* Dropdown list */
 .dropdown-content {
@@ -116,6 +119,13 @@ body{
     align-items: center;
     justify-content:center;
 }
+.frontFace:hover{
+    background-color: #3a9dee;
+
+}
+.oppositeFace:hover{
+    background-color: #f5e3d7;
+}
 .frontFace{
     background-color: #5A7ACD;
 }
@@ -153,6 +163,10 @@ body{
     margin-bottom: 30px;
 
     
+}
+#nextBtn:hover,#prevBtn:hover {
+    background-color: #6bcebd;
+    cursor: pointer;
 }
 
 .examples{
